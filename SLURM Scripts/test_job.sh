@@ -9,7 +9,7 @@
 #SBATCH --mem=8G
 
 echo "Activating My custom environment"
-source ~/mTeam-8-Satellite-Segmentation/SwinTransformer/venv/bin/activate
+source ~/Team-8-Satellite-Segmentation/SwinTransformer/venv/bin/activate
 
 cd ~/Team-8-Satellite-Segmentation/SwinTransformer
 
