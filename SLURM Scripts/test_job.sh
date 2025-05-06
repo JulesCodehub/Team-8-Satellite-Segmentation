@@ -1,7 +1,8 @@
 #!/bin/bash
-#SBATCH --job-name=unetImageSegBaseline
-#SBATCH --output=logs/unetIS_output_%j.txt
-#SBATCH --error=logs/unetIS_error_%j.txt
+#SBATCH --job-name=unetTest
+#SBATCH --output=job%j.txt
+#SBATCH --error=error%j.txt
+#SBATCH -N 1
 #SBATCH --time=12:00:00
 #SBATCH --partition=kimq
 #SBATCH --gres=gpu:1
