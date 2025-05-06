@@ -8,8 +8,8 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 
-#echo "Activating My custom environment"
-#source ~/myEnvs/tf_env/bin/activate
+echo "Activating My custom environment"
+source ~/mTeam-8-Satellite-Segmentation/SwinTransformer/venv/bin/activate
 
 cd ~/Team-8-Satellite-Segmentation/SwinTransformer
 
